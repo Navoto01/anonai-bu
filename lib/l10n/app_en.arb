@@ -1,0 +1,715 @@
+{
+  "grammarCheckInputHint": "Enter text to check grammar...",
+  "@grammarCheckInputHint": { "description": "Input hint for the grammar check feature/page" },
+  "writingStyleInputHint": "Enter text to rewrite in selected style...",
+  "@writingStyleInputHint": { "description": "Input hint for the writing style feature/page" },
+  "appTitle": "AnonAI",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+  "appBarTitle": "AnonAI",
+  "@appBarTitle": {
+    "description": "The title shown in the app bar"
+  },
+  "messageHint": "Type a message...",
+  "@messageHint": {
+    "description": "Hint text for the message input field"
+  },
+  "aiTyping": "AI is typing...",
+  "@aiTyping": {
+    "description": "Text shown when AI is generating a response"
+  },
+  "networkError": "Network error: {error}",
+  "@networkError": {
+    "description": "Error message for network issues",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "description": "The error details"
+      }
+    }
+  },
+  "apiError": "Error: {error}",
+  "@apiError": {
+    "description": "Error message for API issues",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "description": "The error details"
+      }
+    }
+  },
+  "jsonParseError": "JSON parse error: {error}",
+  "@jsonParseError": {
+    "description": "Error message for JSON parsing issues",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "description": "The error details"
+      }
+    }
+  },
+  "settings": "Settings",
+  "@settings": {
+    "description": "Settings screen title"
+  },
+  "appearance": "Appearance",
+  "@appearance": {
+    "description": "Appearance settings section"
+  },
+  "darkMode": "Dark Mode",
+  "@darkMode": {
+    "description": "Dark mode setting"
+  },
+  "darkModeDesc": "Use dark theme throughout the app",
+  "@darkModeDesc": {
+    "description": "Dark mode description"
+  },
+  "fontSize": "Conversation Settings",
+  "@fontSize": {
+    "description": "Conversation settings"
+  },
+  "fontSizeDesc": "Customize how messages appear in conversations",
+  "@fontSizeDesc": {
+    "description": "Conversation settings description"
+  },
+  "fontSizeLabel": "Font Size",
+  "@fontSizeLabel": {
+    "description": "Font size label in conversation settings"
+  },
+  "language": "Language",
+  "@language": {
+    "description": "Language setting"
+  },
+  "languageDesc": "Choose your preferred language",
+  "@languageDesc": {
+    "description": "Language description"
+  },
+  "selectLanguage": "Select Language",
+  "@selectLanguage": {
+    "description": "Language selector title"
+  },
+  "experience": "Experience",
+  "@experience": {
+    "description": "Experience settings section"
+  },
+  "animations": "Animations",
+  "@animations": {
+    "description": "Animations setting"
+  },
+  "animationsDesc": "Enable smooth animations and transitions",
+  "@animationsDesc": {
+    "description": "Animations description"
+  },
+  "soundEffects": "Sound Effects",
+  "@soundEffects": {
+    "description": "Sound effects setting"
+  },
+  "soundEffectsDesc": "Play sounds for interactions",
+  "account": "Account",
+  "@account": {
+    "description": "Account section title"
+  },
+  "loggedInUser": "Logged in user",
+  "@loggedInUser": {
+    "description": "Text shown for logged in user"
+  },
+  "logOut": "Log Out",
+  "@logOut": {
+    "description": "Log out button text"
+  },
+  "@soundEffectsDesc": {
+    "description": "Sound effects description"
+  },
+  "about": "About",
+  "@about": {
+    "description": "About settings section"
+  },
+  "version": "Version",
+  "@version": {
+    "description": "Version info"
+  },
+  "credits": "Credits",
+  "@credits": {
+    "description": "Credits title"
+  },
+  "creditsDesc": "View app credits and acknowledgments",
+  "@creditsDesc": {
+    "description": "Credits description"
+  },
+  "privacyPolicy": "Privacy Policy",
+  "@privacyPolicy": {
+    "description": "Privacy policy title"
+  },
+  "privacyPolicyDesc": "Read our privacy policy",
+  "@privacyPolicyDesc": {
+    "description": "Privacy policy description"
+  },
+  "close": "Close",
+  "@close": {
+    "description": "Close button"
+  },
+  "createdBy": "Created by Navoto01 & AnonLab",
+  "@createdBy": {
+    "description": "Creator credit"
+  },
+  "motto": "Making a better future",
+  "@motto": {
+    "description": "Company motto"
+  },
+  "buyAnonLabPro": "Buy AnonLab Pro",
+  "@buyAnonLabPro": {
+    "description": "Pro card title"
+  },
+  "anonLabPro": "AnonLab Pro",
+  "@anonLabPro": {
+    "description": "Pro product name"
+  },
+  "proActive": "Active",
+  "@proActive": {
+    "description": "Pro status when active"
+  },
+  "proContains": "Pro Contains:",
+  "@proContains": {
+    "description": "Pro features list header"
+  },
+  "proFeaturesUnlocked": "Pro Features Unlocked:",
+  "@proFeaturesUnlocked": {
+    "description": "Pro features unlocked header"
+  },
+  "anonAiProModel": "AnonAI Pro Model",
+  "@anonAiProModel": {
+    "description": "Pro AI model feature"
+  },
+  "moreSoon": "More Soon",
+  "@moreSoon": {
+    "description": "More features coming soon"
+  },
+  "buyNow": "Buy Now",
+  "@buyNow": {
+    "description": "Buy button text"
+  },
+  "promoCode": "Promo Code",
+  "@promoCode": {
+    "description": "Promo code button text"
+  },
+  "purchaseAnonLabPro": "Purchase AnonLab Pro",
+  "@purchaseAnonLabPro": {
+    "description": "Purchase dialog title"
+  },
+  "purchaseDemo": "This is a demo app. In a real app, this would integrate with your app store's payment system.",
+  "@purchaseDemo": {
+    "description": "Purchase demo message"
+  },
+  "cancel": "Cancel",
+  "@cancel": {
+    "description": "Cancel button"
+  },
+  "continueButton": "Continue",
+  "@continueButton": {
+    "description": "Continue button"
+  },
+  "enterPromoCode": "Enter your promotion key code:",
+  "@enterPromoCode": {
+    "description": "Promo code input instruction"
+  },
+  "promoCodeHint": "Enter promo code...",
+  "@promoCodeHint": {
+    "description": "Promo code input hint"
+  },
+  "submit": "Submit",
+  "@submit": {
+    "description": "Submit button"
+  },
+  "invalidPromoCode": "Invalid promo code. Please try again.",
+  "@invalidPromoCode": {
+    "description": "Invalid promo code error message"
+  },
+  "welcomeToPro": "Welcome to Pro!",
+  "@welcomeToPro": {
+    "description": "Pro activation success title"
+  },
+  "proActivatedSuccess": "AnonLab Pro has been activated successfully",
+  "@proActivatedSuccess": {
+    "description": "Pro activation success message"
+  },
+  "loginTitle": "Welcome Back",
+  "@loginTitle": {
+    "description": "Login screen title"
+  },
+  "loginSubtitle": "Sign in with AnonID",
+  "@loginSubtitle": {
+    "description": "Login screen subtitle"
+  },
+  "howToLogin": "How to login",
+  "@howToLogin": {
+    "description": "How to login helper button text"
+  },
+  "loginGuideTitle": "How to Login or Register",
+  "@loginGuideTitle": {
+    "description": "Login guide dialog title"
+  },
+  "loginGuideText": "To access AnonAI with your account, follow these simple steps:\n\n1. **Visit the Registration Website**\n   Go to anon.smstar.hu in your web browser\n\n2. **Create Your Account**\n   • Register a new account with your preferred details\n   • Or login if you already have an account\n   • Use your AnonID, username, or email\n   • Set a secure password\n\n3. **Return to AnonAI**\n   Come back to this app and enter your login details:\n   • AnonID, username, or email\n   • Your password\n\n4. **Important Security Notice**\n   ⚠️ **DON'T LOSE YOUR ACCOUNT!**\n   Your account credentials are very important. Make sure to:\n   • Remember your login details\n   • Keep your password secure\n   • Write down your AnonID if needed\n\n5. **Start Using AnonAI**\n   Once logged in, you'll have access to all AnonAI features and your data will be synced across devices.\n\nNeed help? Visit anon.smstar.hu for more support.",
+  "@loginGuideText": {
+    "description": "Complete login guide text"
+  },
+  "userIdLabel": "AnonID",
+  "@userIdLabel": {
+    "description": "AnonID input field label"
+  },
+  "userIdHint": "Enter your AnonID",
+  "@userIdHint": {
+    "description": "AnonID input field hint"
+  },
+  "passwordLabel": "Password",
+  "@passwordLabel": {
+    "description": "Password input field label"
+  },
+  "passwordHint": "Enter your password",
+  "@passwordHint": {
+    "description": "Password input field hint"
+  },
+  "loginButton": "Sign In",
+  "@loginButton": {
+    "description": "Login button text"
+  },
+  "loginError": "Login failed: {error}",
+  "@loginError": {
+    "description": "Login error message",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "description": "The error details"
+      }
+    }
+  },
+  "allFieldsRequired": "All fields are required",
+  "@allFieldsRequired": {
+    "description": "Error message when fields are empty"
+  },
+  "invalidCredentials": "Invalid AnonID or password",
+  "@invalidCredentials": {
+    "description": "Error message for invalid credentials"
+  },
+  "userNotFound": "User not found",
+  "@userNotFound": {
+    "description": "Error message when user doesn't exist"
+  },
+  "skipLogin": "Skip for now",
+  "@skipLogin": {
+    "description": "Skip login button text"
+  },
+  "anonAI": "AnonAI",
+  "@anonAI": {
+    "description": "AnonAI product name"
+  },
+  "voidNet": "VoidNet",
+  "@voidNet": {
+    "description": "VoidNet product name"
+  },
+  "voidLauncher": "VoidLauncher",
+  "@voidLauncher": {
+    "description": "VoidLauncher product name"
+  },
+  "speed": "Speed",
+  "@speed": {
+    "description": "Speed comparison category"
+  },
+  "baseSpeed": "Slow",
+  "@baseSpeed": {
+    "description": "Base version speed description"
+  },
+  "proSpeed": "Hyper fast",
+  "@proSpeed": {
+    "description": "Pro version speed description"
+  },
+  "reliability": "Reliability",
+  "@reliability": {
+    "description": "Reliability comparison category"
+  },
+  "baseReliability": "Sometimes won't answer or get error",
+  "@baseReliability": {
+    "description": "Base version reliability description"
+  },
+  "proReliability": "Never gets error and always answer",
+  "@proReliability": {
+    "description": "Pro version reliability description"
+  },
+  "intelligence": "Intelligence",
+  "@intelligence": {
+    "description": "Intelligence comparison category"
+  },
+  "baseIntelligence": "Smart, but not as much as ChatGPT",
+  "@baseIntelligence": {
+    "description": "Base version intelligence description"
+  },
+  "proIntelligence": "ChatGPT level intelligence",
+  "@proIntelligence": {
+    "description": "Pro version intelligence description"
+  },
+  "ads": "Ads",
+  "@ads": {
+    "description": "Ads comparison category"
+  },
+  "baseAds": "Has ads",
+  "@baseAds": {
+    "description": "Base version ads description"
+  },
+  "proAds": "No ads",
+  "@proAds": {
+    "description": "Pro version ads description"
+  },
+  "base": "Base",
+  "@base": {
+    "description": "Base version label"
+  },
+  "pro": "Pro",
+  "@pro": {
+    "description": "Pro version label"
+  },
+  "modes": "Modes",
+  "@modes": {
+    "description": "Modes card title"
+  },
+  "selectAiMode": "Select AI Mode:",
+  "@selectAiMode": {
+    "description": "Mode selection instruction"
+  },
+  "modeDefault": "Default",
+  "@modeDefault": {
+    "description": "Default AI mode name"
+  },
+  "modeDefaultDesc": "Original AnonAI personality",
+  "@modeDefaultDesc": {
+    "description": "Default AI mode description"
+  },
+  "modeDirect": "Direct",
+  "@modeDirect": {
+    "description": "Direct AI mode name"
+  },
+  "modeDirectDesc": "Clear, direct and actionable responses",
+  "@modeDirectDesc": {
+    "description": "Direct AI mode description"
+  },
+  "modeAngry": "Angry",
+  "@modeAngry": {
+    "description": "Angry AI mode name"
+  },
+  "modeAngryDesc": "Passionate and intense responses",
+  "@modeAngryDesc": {
+    "description": "Angry AI mode description"
+  },
+  "modeChill": "Chill",
+  "@modeChill": {
+    "description": "Chill AI mode name"
+  },
+  "modeChillDesc": "Relaxed and casual conversations",
+  "@modeChillDesc": {
+    "description": "Chill AI mode description"
+  },
+  "modeTikTok": "TikTok Commenter",
+  "@modeTikTok": {
+    "description": "TikTok Commenter AI mode name"
+  },
+  "modeTikTokDesc": "Chaotic TikTok comment section energy",
+  "@modeTikTokDesc": {
+    "description": "TikTok Commenter AI mode description"
+  },
+  "modeNerd": "Nerd",
+  "@modeNerd": {
+    "description": "Nerd AI mode name"
+  },
+  "modeNerdDesc": "Technical and detailed explanations",
+  "@modeNerdDesc": {
+    "description": "Nerd AI mode description"
+  },
+  "modeProfessional": "Professional",
+  "@modeProfessional": {
+    "description": "Professional AI mode name"
+  },
+  "modeProfessionalDesc": "Formal and business-like tone",
+  "@modeProfessionalDesc": {
+    "description": "Professional AI mode description"
+  },
+  "modeTeacher": "Teacher",
+  "@modeTeacher": {
+    "description": "Teacher AI mode name"
+  },
+  "modeTeacherDesc": "Educational and explanatory responses",
+  "@modeTeacherDesc": {
+    "description": "Teacher AI mode description"
+  },
+  "modeUnhinged": "Unhinged",
+  "@modeUnhinged": {
+    "description": "Unhinged AI mode name"
+  },
+  "modeUnhingedDesc": "Completely unhinged and boundary-free responses",
+  "@modeUnhingedDesc": {
+    "description": "Unhinged AI mode description"
+  },
+  "style": "Style",
+  "@style": {
+    "description": "Style settings section title"
+  },
+  "notSignedIn": "Not signed in",
+  "@notSignedIn": {
+    "description": "Text shown when user is not signed in"
+  },
+  "signInToSync": "Sign in to sync your data",
+  "@signInToSync": {
+    "description": "Description for signing in to sync data"
+  },
+  "monthly": "Monthly",
+  "@monthly": {
+    "description": "Monthly subscription option"
+  },
+  "billedMonthly": "Billed monthly",
+  "@billedMonthly": {
+    "description": "Monthly billing description"
+  },
+  "yearly": "Yearly",
+  "@yearly": {
+    "description": "Yearly subscription option"
+  },
+  "billedAnnually": "Billed annually",
+  "@billedAnnually": {
+    "description": "Annual billing description"
+  },
+  "save315": "Save 31.5%",
+  "@save315": {
+    "description": "Savings percentage for yearly subscription"
+  },
+  "chooseSubscriptionPlan": "Choose your subscription plan",
+  "@chooseSubscriptionPlan": {
+    "description": "Subscription plan selection instruction"
+  },
+  "bubbleRoundness": "Bubble Roundness",
+  "@bubbleRoundness": {
+    "description": "Bubble roundness setting label"
+  },
+  "bubbleRoundnessDesc": "Adjust the roundness of message bubbles",
+  "@bubbleRoundnessDesc": {
+    "description": "Bubble roundness setting description"
+  },
+  "cornerSmoothing": "Corner Smoothing",
+  "@cornerSmoothing": {
+    "description": "Corner smoothing setting label"
+  },
+  "cornerSmoothingDesc": "Adjust the smoothness of bubble corners",
+  "@cornerSmoothingDesc": {
+    "description": "Corner smoothing setting description"
+  },
+
+  "setupWelcomeTitle": "Welcome to AnonAI",
+  "@setupWelcomeTitle": {
+    "description": "Welcome screen title in setup"
+  },
+  "setupWelcomeSubtitle": "Let's set up your AI assistant to match your preferences",
+  "@setupWelcomeSubtitle": {
+    "description": "Welcome screen subtitle in setup"
+  },
+  "setupMultipleLanguages": "Multiple languages",
+  "@setupMultipleLanguages": {
+    "description": "Feature item in welcome screen"
+  },
+  "setupCustomizableThemes": "Customizable themes",
+  "@setupCustomizableThemes": {
+    "description": "Feature item in welcome screen"
+  },
+  "setupPersonalizedExperience": "Personalized experience",
+  "@setupPersonalizedExperience": {
+    "description": "Feature item in welcome screen"
+  },
+  "setupPrivacyFocused": "Privacy focused",
+  "@setupPrivacyFocused": {
+    "description": "Feature item in welcome screen"
+  },
+  "setupChooseLanguage": "Choose Your Language",
+  "@setupChooseLanguage": {
+    "description": "Language selection screen title"
+  },
+  "setupChooseLanguageDesc": "Select your preferred language for the app",
+  "@setupChooseLanguageDesc": {
+    "description": "Language selection screen description"
+  },
+  "setupChooseTheme": "Choose Your Theme",
+  "@setupChooseTheme": {
+    "description": "Theme selection screen title"
+  },
+  "setupChooseThemeDesc": "Select the appearance that suits you best",
+  "@setupChooseThemeDesc": {
+    "description": "Theme selection screen description"
+  },
+  "setupDarkTheme": "Dark Theme",
+  "@setupDarkTheme": {
+    "description": "Dark theme option"
+  },
+  "setupDarkThemeDesc": "Easy on the eyes, perfect for night use",
+  "@setupDarkThemeDesc": {
+    "description": "Dark theme description"
+  },
+  "setupLightTheme": "Light Theme",
+  "@setupLightTheme": {
+    "description": "Light theme option"
+  },
+  "setupLightThemeDesc": "Clean and bright, great for daytime",
+  "@setupLightThemeDesc": {
+    "description": "Light theme description"
+  },
+  "setupCustomizeExperience": "Customize Your Experience",
+  "@setupCustomizeExperience": {
+    "description": "Customization screen title"
+  },
+  "setupCustomizeExperienceDesc": "Adjust these settings to make the app feel just right",
+  "@setupCustomizeExperienceDesc": {
+    "description": "Customization screen description"
+  },
+  "setupAccountSetup": "Account Setup",
+  "@setupAccountSetup": {
+    "description": "Account setup screen title"
+  },
+  "setupAccountSetupDesc": "Sign in to sync your preferences across devices",
+  "@setupAccountSetupDesc": {
+    "description": "Account setup screen description"
+  },
+  "setupSignIn": "Sign In",
+  "@setupSignIn": {
+    "description": "Sign in button text"
+  },
+  "setupSkipForNow": "Skip for now",
+  "@setupSkipForNow": {
+    "description": "Skip login button text"
+  },
+  "setupBenefitsTitle": "Benefits of signing in:",
+  "@setupBenefitsTitle": {
+    "description": "Benefits section title"
+  },
+  "setupSyncAcrossDevices": "Sync across devices",
+  "@setupSyncAcrossDevices": {
+    "description": "Benefit item"
+  },
+  "setupBackupData": "Backup your data",
+  "@setupBackupData": {
+    "description": "Benefit item"
+  },
+  "setupAccessPremium": "Access premium features",
+  "@setupAccessPremium": {
+    "description": "Benefit item"
+  },
+  "setupAllSet": "All Set!",
+  "@setupAllSet": {
+    "description": "Completion screen title"
+  },
+  "setupAllSetDesc": "Your AnonAI assistant is ready to help you. Enjoy your personalized experience!",
+  "@setupAllSetDesc": {
+    "description": "Completion screen description"
+  },
+  "setupYourSetup": "Your Setup:",
+  "@setupYourSetup": {
+    "description": "Setup summary title"
+  },
+  "setupLanguageLabel": "Language",
+  "@setupLanguageLabel": {
+    "description": "Setup summary language label"
+  },
+  "setupThemeLabel": "Theme",
+  "@setupThemeLabel": {
+    "description": "Setup summary theme label"
+  },
+  "setupFontSizeLabel": "Font Size",
+  "@setupFontSizeLabel": {
+    "description": "Setup summary font size label"
+  },
+  "setupAccountLabel": "Account",
+  "@setupAccountLabel": {
+    "description": "Setup summary account label"
+  },
+  "setupNotSignedIn": "Not signed in",
+  "@setupNotSignedIn": {
+    "description": "Account status when not signed in"
+  },
+  "setupSignedIn": "Signed in",
+  "@setupSignedIn": {
+    "description": "Account status when signed in"
+  },
+  "setupEnterAnonAI": "Enter AnonAI",
+  "@setupEnterAnonAI": {
+    "description": "Final button text"
+  },
+  "setupGetStarted": "Get Started",
+  "@setupGetStarted": {
+    "description": "First continue button text"
+  },
+  "setupContinue": "Continue",
+  "@setupContinue": {
+    "description": "Continue button text"
+  },
+  "setupBack": "Back",
+  "@setupBack": {
+    "description": "Back button text"
+  },
+  "setupDark": "Dark",
+  "@setupDark": {
+    "description": "Dark theme label"
+  },
+  "setupLight": "Light",
+  "@setupLight": {
+    "description": "Light theme label"
+  },
+  "unhingedWarningTitle": "Warning",
+  "@unhingedWarningTitle": {
+    "description": "Title for unhinged mode warning dialog"
+  },
+  "unhingedWarningMessage": "The unhinged mode works MUCH more freely and uninhibitedly with AnonAI Pro.",
+  "@unhingedWarningMessage": {
+    "description": "Warning message about unhinged mode behavior with Pro"
+  },
+  "uploadImageWarningTitle": "Developer Feature",
+  "@uploadImageWarningTitle": {
+    "description": "Title for upload image warning dialog"
+  },
+  "uploadImageWarningMessage": "This feature is exclusively available for developers, as it's not 100% functional yet.",
+  "@uploadImageWarningMessage": {
+    "description": "Warning message about upload image feature being for developers only"
+  },
+  "okay": "Okay",
+  "@okay": {
+    "description": "Okay button text"
+  }
+  ,
+  "uploadImage": "Upload Image",
+  "@uploadImage": { "description": "Button text for uploading an image" },
+  "tools": "Tools",
+  "@tools": { "description": "Button text for opening tools menu" }
+  ,
+  "writingStyleTitle": "Writing Style",
+  "@writingStyleTitle": { "description": "Title for the writing style feature/page" },
+  "writingStyleDescription": "The AI rewrites your message in a different style.",
+  "@writingStyleDescription": { "description": "Description for the writing style feature/page" },
+  "grammarCheckTitle": "Grammar Check",
+  "@grammarCheckTitle": { "description": "Title for the grammar check feature/page" },
+  "grammarCheckDescription": "Fix grammar and spelling in your text.",
+  "grammarCheckTab": "Grammar",
+  "grammarCheckLoading": "Checking grammar...",
+  "@grammarCheckTab": { "description": "Tab label for grammar check feature" },
+  "@grammarCheckLoading": { "description": "Loading text for grammar check feature" },
+  "@grammarCheckDescription": { "description": "Description for the grammar check feature/page" },
+  "passwordDialogTitle": "Access Required",
+  "@passwordDialogTitle": { "description": "Title for password dialog" },
+  "passwordDialogMessage": "Enter the password to access Writing Style tools",
+  "@passwordDialogMessage": { "description": "Message for password dialog" },
+  "passwordInputHint": "Enter password",
+  "@passwordInputHint": { "description": "Hint text for password input field" },
+  "incorrectPassword": "Incorrect password",
+  "@incorrectPassword": { "description": "Error message for incorrect password" },
+  "unlock": "Unlock",
+  "@unlock": { "description": "Unlock button text" },
+  "deleteMessage": "Delete Message",
+  "@deleteMessage": { "description": "Title for delete message dialog" },
+  "deleteMessageConfirmation": "Are you sure you want to delete this message? This action cannot be undone.",
+  "@deleteMessageConfirmation": { "description": "Confirmation message for deleting a message" },
+  "yes": "Yes",
+  "@yes": { "description": "Yes button text" },
+  "no": "No",
+  "@no": { "description": "No button text" }
+}

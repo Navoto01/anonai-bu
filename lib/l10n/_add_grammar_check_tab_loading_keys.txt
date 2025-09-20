@@ -1,0 +1,4 @@
+  "grammarCheckTab": "Grammar",
+  "grammarCheckLoading": "Checking grammar...",
+  "@grammarCheckTab": { "description": "Tab label for grammar check feature" },
+  "@grammarCheckLoading": { "description": "Loading text for grammar check feature" }

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1066766744610",
+    "firebase_url": "https://voidnet-anonlab-default-rtdb.firebaseio.com",
+    "project_id": "voidnet-anonlab",
+    "storage_bucket": "voidnet-anonlab.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1066766744610:android:2963fd40ccc9d770695e7b",
+        "android_client_info": {
+          "package_name": "com.anonlab.voidnet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1066766744610-04g31pp7aeqot5mv1u460l75hgrhhpje.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcq1MImAhCELaFP8VZ343vS1jKjWgPvFQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1066766744610-04g31pp7aeqot5mv1u460l75hgrhhpje.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
